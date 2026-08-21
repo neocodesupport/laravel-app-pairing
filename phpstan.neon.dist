@@ -1,0 +1,22 @@
+parameters:
+    level: 7
+    paths:
+        - src
+        - config
+        - database
+        - routes
+    tmpDir: build/phpstan
+    ignoreErrors:
+        -
+            # This is a package config template merged into the host application's
+            # config via mergeConfigFrom(), not the host's own config/ directory, so
+            # Larastan cannot recognize it as config_path() even though it is one.
+            identifier: larastan.noEnvCallsOutsideOfConfig
+            path: config/pairing.php
+        -
+            # Native typed class constants require PHP 8.3, but this package must
+            # stay on PHP 8.2 to support Laravel apps still on that version. The
+            # constant values are all string literals, so their type is already
+            # fully known to PHPStan from the declaration itself.
+            identifier: typeCoverage.constantTypeCoverage
+            path: src/Support/PairingHeaders.php
