@@ -7,7 +7,7 @@
 [![Packagist Version](https://img.shields.io/packagist/v/neocode/laravel-app-pairing.svg?style=flat-square)](https://packagist.org/packages/neocode/laravel-app-pairing)
 [![Total Downloads](https://img.shields.io/packagist/dt/neocode/laravel-app-pairing.svg?style=flat-square)](https://packagist.org/packages/neocode/laravel-app-pairing)
 [![PHP Version](https://img.shields.io/packagist/php-v/neocode/laravel-app-pairing.svg?style=flat-square)](https://packagist.org/packages/neocode/laravel-app-pairing)
-[![Laravel](https://img.shields.io/badge/Laravel-11%20%7C%2012%20%7C%2013-FF2D20.svg?style=flat-square&logo=laravel)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-12%20%7C%2013-FF2D20.svg?style=flat-square&logo=laravel)](https://laravel.com)
 [![Tests](https://img.shields.io/github/actions/workflow/status/neocodesupport/laravel-app-pairing/tests.yml?branch=main&style=flat-square&label=tests&logo=github)](https://github.com/neocodesupport/laravel-app-pairing/actions/workflows/tests.yml)
 [![License](https://img.shields.io/packagist/l/neocode/laravel-app-pairing.svg?style=flat-square)](LICENSE.md)
 
