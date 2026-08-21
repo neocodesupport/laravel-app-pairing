@@ -1,7 +1,7 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "neocode/laravel-app-pairing",
-    "description": "",
+    "description": "A generic, secure, reusable pairing and inter-application authentication layer for Laravel applications, using Ed25519-signed requests.",
     "keywords": [
         "laravel",
         "meledjearmel",

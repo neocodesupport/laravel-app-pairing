@@ -10,6 +10,10 @@
     <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://img.shields.io/packagist/dt/neocode/laravel-app-pairing.svg?style=flat-square" alt="Total Downloads"></a>
 </p>
 
+<p align="center">
+    <strong>English</strong> | <a href="README.fr.md">Français</a>
+</p>
+
 A generic, secure, reusable **pairing and inter-application authentication** layer for Laravel applications. It lets one Laravel installation discover, pair with, and cryptographically authenticate communication against any number of partner Laravel applications — without knowing anything about what those applications are, or what data they exchange.
 
 The package owns exactly five concerns: **identity**, **pairing**, **authentication**, **signing**, and **transport**. It never touches your business data or business endpoints — you keep writing your own controllers and models, and simply protect them with the middleware and signed HTTP client this package provides.
