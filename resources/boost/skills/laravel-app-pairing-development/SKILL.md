@@ -21,7 +21,7 @@ Use this skill when a Laravel application needs to integrate the `neocode/larave
 
 ### 1. Inspect the Laravel app context
 
-- confirm the app is a Laravel project (`^11.0||^12.0||^13.0`) on PHP `^8.3` with `ext-sodium` available
+- confirm the app is a Laravel project (`^12.0||^13.0`) on PHP `^8.3` with `ext-sodium` available
 - check whether `config/pairing.php` and the `pairing_*` migrations already exist before installing again
 
 ### 2. Install and configure
