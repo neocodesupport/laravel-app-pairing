@@ -3,11 +3,11 @@
 </div>
 
 <p align="center">
-    <a href="https://packagist.org/packages/meledjearmel/laravel-app-pairing"><img src="https://img.shields.io/packagist/v/meledjearmel/laravel-app-pairing.svg?style=flat-square" alt="Packagist"></a>
-    <a href="https://packagist.org/packages/meledjearmel/laravel-app-pairing"><img src="https://img.shields.io/packagist/php-v/meledjearmel/laravel-app-pairing.svg?style=flat-square" alt="PHP from Packagist"></a>
-    <a href="https://packagist.org/packages/meledjearmel/laravel-app-pairing"><img src="https://badge.laravel.cloud/badge/meledjearmel/laravel-app-pairing?style=flat" alt="Laravel versions"></a>
+    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://img.shields.io/packagist/v/neocode/laravel-app-pairing.svg?style=flat-square" alt="Packagist"></a>
+    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://img.shields.io/packagist/php-v/neocode/laravel-app-pairing.svg?style=flat-square" alt="PHP from Packagist"></a>
+    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://badge.laravel.cloud/badge/neocode/laravel-app-pairing?style=flat" alt="Laravel versions"></a>
     <a href="https://github.com/neocodesupport/laravel-app-pairing/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/neocodesupport/laravel-app-pairing/tests.yml?branch=main&label=Tests&style=flat-square"></a>
-    <a href="https://packagist.org/packages/meledjearmel/laravel-app-pairing"><img src="https://img.shields.io/packagist/dt/meledjearmel/laravel-app-pairing.svg?style=flat-square" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://img.shields.io/packagist/dt/neocode/laravel-app-pairing.svg?style=flat-square" alt="Total Downloads"></a>
 </p>
 
 A generic, secure, reusable **pairing and inter-application authentication** layer for Laravel applications. It lets one Laravel installation discover, pair with, and cryptographically authenticate communication against any number of partner Laravel applications — without knowing anything about what those applications are, or what data they exchange.
@@ -51,7 +51,7 @@ The package owns exactly five concerns: **identity**, **pairing**, **authenticat
 ## Installation
 
 ```bash
-composer require meledjearmel/laravel-app-pairing
+composer require neocode/laravel-app-pairing
 ```
 
 Publish the configuration file:

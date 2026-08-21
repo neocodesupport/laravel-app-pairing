@@ -11,11 +11,11 @@ metadata:
 
 # Laravel App Pairing
 
-Use this skill when a Laravel application needs to integrate the `meledjearmel/laravel-app-pairing` package: a generic, cryptographically-authenticated pairing layer between Laravel installations. The package owns identity, pairing, authentication, signing, and transport only — it has no opinion about business data or business endpoints.
+Use this skill when a Laravel application needs to integrate the `neocode/laravel-app-pairing` package: a generic, cryptographically-authenticated pairing layer between Laravel installations. The package owns identity, pairing, authentication, signing, and transport only — it has no opinion about business data or business endpoints.
 
 ## Primary Goal
 
-- apply the `meledjearmel/laravel-app-pairing` package's public API in the smallest correct way, without reimplementing anything it already provides (signing, verification, key storage, retries, idempotency)
+- apply the `neocode/laravel-app-pairing` package's public API in the smallest correct way, without reimplementing anything it already provides (signing, verification, key storage, retries, idempotency)
 
 ## Workflow
 
@@ -27,7 +27,7 @@ Use this skill when a Laravel application needs to integrate the `meledjearmel/l
 ### 2. Install and configure
 
 ```bash
-composer require meledjearmel/laravel-app-pairing
+composer require neocode/laravel-app-pairing
 php artisan vendor:publish --tag="pairing-config"
 php artisan migrate
 ```

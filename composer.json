@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "meledjearmel/laravel-app-pairing",
+    "name": "neocode/laravel-app-pairing",
     "description": "",
     "keywords": [
         "laravel",
