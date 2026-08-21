@@ -3,11 +3,14 @@
 </div>
 
 <p align="center">
-    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://img.shields.io/packagist/v/neocode/laravel-app-pairing.svg?style=flat-square" alt="Packagist"></a>
-    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://img.shields.io/packagist/php-v/neocode/laravel-app-pairing.svg?style=flat-square" alt="PHP from Packagist"></a>
-    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://badge.laravel.cloud/badge/neocode/laravel-app-pairing?style=flat" alt="Laravel versions"></a>
-    <a href="https://github.com/neocodesupport/laravel-app-pairing/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/neocodesupport/laravel-app-pairing/tests.yml?branch=main&label=Tests&style=flat-square"></a>
-    <a href="https://packagist.org/packages/neocode/laravel-app-pairing"><img src="https://img.shields.io/packagist/dt/neocode/laravel-app-pairing.svg?style=flat-square" alt="Total Downloads"></a>
+
+[![Packagist Version](https://img.shields.io/packagist/v/neocode/laravel-app-pairing.svg?style=flat-square)](https://packagist.org/packages/neocode/laravel-app-pairing)
+[![Total Downloads](https://img.shields.io/packagist/dt/neocode/laravel-app-pairing.svg?style=flat-square)](https://packagist.org/packages/neocode/laravel-app-pairing)
+[![PHP Version](https://img.shields.io/packagist/php-v/neocode/laravel-app-pairing.svg?style=flat-square)](https://packagist.org/packages/neocode/laravel-app-pairing)
+[![Laravel](https://img.shields.io/badge/Laravel-11%20%7C%2012%20%7C%2013-FF2D20.svg?style=flat-square&logo=laravel)](https://laravel.com)
+[![Tests](https://img.shields.io/github/actions/workflow/status/neocodesupport/laravel-app-pairing/tests.yml?branch=main&style=flat-square&label=tests&logo=github)](https://github.com/neocodesupport/laravel-app-pairing/actions/workflows/tests.yml)
+[![License](https://img.shields.io/packagist/l/neocode/laravel-app-pairing.svg?style=flat-square)](LICENSE.md)
+
 </p>
 
 <p align="center">
